@@ -18,6 +18,8 @@ namespace RailtownBE5Assignment.Models
 
         Company Company { get; set; }
 
+        string Phone { get; set; }
+
         Dictionary<string, object> Properties { get; set; }
 
         public void PrintUser();
